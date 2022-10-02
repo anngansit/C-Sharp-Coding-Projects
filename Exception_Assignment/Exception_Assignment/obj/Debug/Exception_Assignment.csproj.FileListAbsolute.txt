@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Assignment\Exception_Assignment\bin\Debug\Exception_Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Assignment\Exception_Assignment\bin\Debug\Exception_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Assignment\Exception_Assignment\bin\Debug\Exception_Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Assignment\Exception_Assignment\obj\Debug\Exception_Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Assignment\Exception_Assignment\obj\Debug\Exception_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Assignment\Exception_Assignment\obj\Debug\Exception_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Assignment\Exception_Assignment\obj\Debug\Exception_Assignment.pdb

@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Arrays _Assignment\Arrays _Assignment\obj\Debug\Arrays _Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Arrays _Assignment\Arrays _Assignment\obj\Debug\Arrays _Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Arrays _Assignment\Arrays _Assignment\bin\Debug\Arrays _Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Arrays _Assignment\Arrays _Assignment\bin\Debug\Arrays _Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Arrays _Assignment\Arrays _Assignment\bin\Debug\Arrays _Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Arrays _Assignment\Arrays _Assignment\obj\Debug\Arrays _Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Arrays _Assignment\Arrays _Assignment\obj\Debug\Arrays _Assignment.pdb
