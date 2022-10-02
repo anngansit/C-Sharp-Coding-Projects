@@ -56,32 +56,32 @@ namespace Console_App_Assignment
 
             if (contains == true)
             {
-                Console.WriteLine("She is in your friends list.\n");
+                Console.WriteLine("The name you entered is in your friends list.\n");
             }
             else
             {
-                Console.WriteLine("She is not in your friends list.\n");
+                Console.WriteLine("The name you entered is not in your friends list.\n");
             }
             Console.ReadLine();
 
-            //Infinite Loop
-            for (int i = 0; ; i++)
-            {
-                //Console.WriteLine(i + ", "); 
-                Console.WriteLine(i);
-            }
-            Console.ReadLine();
-
-            ////loop up to 10
-            //Console.WriteLine("Loop 1 to 10.");
-            //for (int i = 0; i<=10; i++)
+            ////Infinite Loop
+            //for (int i = 0; ; i++)
             //{
             //    //Console.WriteLine(i + ", "); 
             //    Console.WriteLine(i);
             //}
             //Console.ReadLine();
 
-           
+            //loop up to 10
+            Console.WriteLine("Loop 1 to 10.");
+            for (int i = 0; i <= 10; i++)
+            {
+                //Console.WriteLine(i + ", "); 
+                Console.WriteLine(i);
+            }
+            Console.ReadLine();
+
+
 
 
 
