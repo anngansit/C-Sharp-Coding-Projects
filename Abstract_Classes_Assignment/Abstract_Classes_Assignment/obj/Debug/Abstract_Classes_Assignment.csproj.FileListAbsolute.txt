@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Abstract_Classes_Assignment\Abstract_Classes_Assignment\bin\Debug\Abstract_Classes_Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Abstract_Classes_Assignment\Abstract_Classes_Assignment\bin\Debug\Abstract_Classes_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Abstract_Classes_Assignment\Abstract_Classes_Assignment\bin\Debug\Abstract_Classes_Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Abstract_Classes_Assignment\Abstract_Classes_Assignment\obj\Debug\Abstract_Classes_Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Abstract_Classes_Assignment\Abstract_Classes_Assignment\obj\Debug\Abstract_Classes_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Abstract_Classes_Assignment\Abstract_Classes_Assignment\obj\Debug\Abstract_Classes_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Abstract_Classes_Assignment\Abstract_Classes_Assignment\obj\Debug\Abstract_Classes_Assignment.pdb
