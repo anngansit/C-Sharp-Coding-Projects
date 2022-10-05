@@ -8,9 +8,8 @@ namespace Inheritance_Assignment
 {
     public class Employee : Person
     {
-        public int ID;
-
-        public void IDList()
+     
+        public void ID()
             {
             throw new NotImplementedException();
             }
