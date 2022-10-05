@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classes_and_Methods_Assign2\Classes_and_Methods_Assign2\obj\Debug\Classes_and_Methods_Assign2.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classes_and_Methods_Assign2\Classes_and_Methods_Assign2\obj\Debug\Classes_and_Methods_Assign2.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classes_and_Methods_Assign2\Classes_and_Methods_Assign2\bin\Debug\Classes_and_Methods_Assign2.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classes_and_Methods_Assign2\Classes_and_Methods_Assign2\bin\Debug\Classes_and_Methods_Assign2.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classes_and_Methods_Assign2\Classes_and_Methods_Assign2\bin\Debug\Classes_and_Methods_Assign2.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classes_and_Methods_Assign2\Classes_and_Methods_Assign2\obj\Debug\Classes_and_Methods_Assign2.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classes_and_Methods_Assign2\Classes_and_Methods_Assign2\obj\Debug\Classes_and_Methods_Assign2.pdb

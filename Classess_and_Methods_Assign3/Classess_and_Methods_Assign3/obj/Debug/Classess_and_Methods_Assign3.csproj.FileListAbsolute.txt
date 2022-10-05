@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classess_and_Methods_Assign3\Classess_and_Methods_Assign3\obj\Debug\Classess_and_Methods_Assign3.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classess_and_Methods_Assign3\Classess_and_Methods_Assign3\obj\Debug\Classess_and_Methods_Assign3.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classess_and_Methods_Assign3\Classess_and_Methods_Assign3\bin\Debug\Classess_and_Methods_Assign3.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classess_and_Methods_Assign3\Classess_and_Methods_Assign3\bin\Debug\Classess_and_Methods_Assign3.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classess_and_Methods_Assign3\Classess_and_Methods_Assign3\bin\Debug\Classess_and_Methods_Assign3.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classess_and_Methods_Assign3\Classess_and_Methods_Assign3\obj\Debug\Classess_and_Methods_Assign3.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Classess_and_Methods_Assign3\Classess_and_Methods_Assign3\obj\Debug\Classess_and_Methods_Assign3.pdb
