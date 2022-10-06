@@ -11,25 +11,27 @@ namespace Class_Method_Assignment
         public static void Main(string[] args)
         {
 
-            int Y = 2;
-            MathOperation mathoperation = new MathOperation();
+            MathOperation math_operation = new MathOperation();
+
+            int Num1, Divisor=2, Num2=4;
+            int Result, Result2;
+            
 
             Console.WriteLine("Enter a number:");
-            int X = Convert.ToInt32(Console.ReadLine());
+            Num1 = Convert.ToInt32(Console.ReadLine());
 
+            MathOperation.Output(Num1, Divisor, out Result);
+            MathOperation.Output2(Num1, Divisor, Num2, out Result2);
 
-            Double Quotient = MathOperation.Divide(X, Y);
-            Double Remainder = MathOperation.Remainder(X, Y);
+            Console.WriteLine("The output when divided by 2 is:  " +Result);
+            Console.WriteLine("The output when added by 4 and sum divided by 2 is: " +Result2);
 
-            Console.WriteLine("The number you entered is: " + X);
-            Console.WriteLine("The number you entered divided by 2 is: " + Quotient);
-            Console.WriteLine("Remainder: " + Remainder);
             Console.ReadLine();
+
+           
         }
+
     }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
+
+

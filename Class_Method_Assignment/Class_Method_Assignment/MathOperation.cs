@@ -8,30 +8,22 @@ namespace Class_Method_Assignment
 {
     class MathOperation
     {
-        public int X { get; set; }
-        public int Y { get; set; }
-
-        public void Divide()
+        public static void Output(int Num1, int Divisor, out int Result)
         {
-            Console.WriteLine(Divide(X, Y));
-            Console.ReadLine();
+           
+            Result = Num1 / Divisor;
+            
+  
+        }
+
+        public static void Output2(int Num1, int Divisor, int Num2, out int Result2)
+        {
+            
+            Result2 = (Num1 + Num2) / Divisor;
 
         }
 
-        public static Double Divide(int X, int Y)
-        {
 
-            Double Quotient = X / Y;
-            return Quotient;
-            int Remainder = X % Y;
-            return Remainder;
-
-        }
-        public static Double Remainder(int X, int Y)
-        {
-
-            Double Remainder = X % Y;
-            return Remainder;
-        }
     }
+
 }
