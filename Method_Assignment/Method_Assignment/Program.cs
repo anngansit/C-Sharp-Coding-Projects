@@ -21,7 +21,7 @@ namespace Method_Assignment
             Double Quotient = Math_Operation.Divide(Num1, Num2);
 
             Console.WriteLine("The sum is: " + Sum);
-            
+
             Console.WriteLine("The difference is: " + Difference);
 
             Console.WriteLine("The product is: " + Product);
@@ -30,6 +30,6 @@ namespace Method_Assignment
 
             Console.ReadLine();
         }
-        
+
     }
 }

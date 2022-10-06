@@ -8,33 +8,24 @@ namespace Classes_and_Methods_Assign1
 {
     class Math_Operators
     {
-        public static int Add(int x, int y)
+        public static int Objects(int x, int y)
         {
-            int Sum = x + y;
-            return Sum;
+            
+            return x * y;
         }
 
-        public static int Subtract(int x, int y)
+        public static Decimal Objects(Decimal a, Decimal b)
+
         {
-           
-            int Difference = x - y;
-            return Difference;
+            return a - b;
         }
 
-        public static Decimal Multiply(int x, int y)
+        public static string Objects(string c, string d)
         {
 
-            Decimal Product = x * y;
-            return Product;
+            return c + d;
         }
 
-        public static Double Divide(int x, int y)
-        {
-
-            Double Quotient = x / y;
-            return Quotient;
-        }
-
-
+       
     }
 }

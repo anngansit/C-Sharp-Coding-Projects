@@ -8,10 +8,10 @@ namespace Classess_and_Methods_Assign3
 {
     public class MyClass
     {
-        public int Add( int Num1, int Num2)
+        public void  Add( int Num1, int Num2)
         {
-            int Sum = Num1 + Num2;
-            return Sum;
+            Console.WriteLine("The second integer is: \n" + Num2);
+            Console.ReadLine();
         }
     }
 }
