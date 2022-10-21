@@ -8,22 +8,22 @@ namespace Classess_and_Methods_Assign2
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             MathOp mathOp = new MathOp();
 
-            int y = 10;
-            int Result;
-
-            Console.WriteLine("Enter an integer:");
-            int x = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("The second integer is: " + y);
-
-            Result = MathOp.Output(x, y);
             
-            Console.WriteLine("The sum of the 2 numbers is: " + Result);
+            Console.WriteLine("Enter first number:");
+            int FN = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter second number.  This is optional. You may not enter anything.");
+            string SN = Console.ReadLine();
+
+            MathOp.ADDNumbers(FN, SN);
             Console.ReadLine();
-        } 
+        }
+
     }
-}
+    
+ } 
+    

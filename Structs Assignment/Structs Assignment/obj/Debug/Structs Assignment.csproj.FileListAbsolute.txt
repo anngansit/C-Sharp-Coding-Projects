@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Structs Assignment\Structs Assignment\obj\Debug\Structs Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Structs Assignment\Structs Assignment\obj\Debug\Structs Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Structs Assignment\Structs Assignment\bin\Debug\Structs Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Structs Assignment\Structs Assignment\bin\Debug\Structs Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Structs Assignment\Structs Assignment\bin\Debug\Structs Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Structs Assignment\Structs Assignment\obj\Debug\Structs Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Structs Assignment\Structs Assignment\obj\Debug\Structs Assignment.pdb

@@ -8,11 +8,29 @@ namespace Classess_and_Methods_Assign2
 {
     class MathOp
     {
-        public static int Output(int x, int y)
+        public static void ADDNumbers(int FirstNumber, string SecondNumber)
         {
-            return x + y;
-            
+            int FN = FirstNumber; string SN = SecondNumber; int result; int SecNum;
+
+            bool b1 = string.IsNullOrEmpty(SN);
+
+            if (b1)
+            {
+                Console.WriteLine("You did not enter any number.");
+                result = FN;
+            }
+            else
+            {
+                SecNum = Convert.ToInt32(SN);
+                result = FN + SecNum;
+            }
+
+
+            Console.WriteLine("Total = " + result);
+
+
         }
+
 
     }
 }
