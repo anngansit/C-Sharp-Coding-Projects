@@ -19,9 +19,7 @@ namespace Generics_Assignment
             ThingsList.Add("Pen");
             ThingsList.Add("Paper");
             ThingsList.Add("Tape");
-            ThingsList.Add("50");
-
-    
+               
 
             employee.Things = ThingsList;
            
