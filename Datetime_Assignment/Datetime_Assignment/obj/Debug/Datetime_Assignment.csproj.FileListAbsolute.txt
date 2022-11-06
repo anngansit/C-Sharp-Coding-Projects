@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Datetime_Assignment\Datetime_Assignment\bin\Debug\Datetime_Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Datetime_Assignment\Datetime_Assignment\bin\Debug\Datetime_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Datetime_Assignment\Datetime_Assignment\bin\Debug\Datetime_Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Datetime_Assignment\Datetime_Assignment\obj\Debug\Datetime_Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Datetime_Assignment\Datetime_Assignment\obj\Debug\Datetime_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Datetime_Assignment\Datetime_Assignment\obj\Debug\Datetime_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Datetime_Assignment\Datetime_Assignment\obj\Debug\Datetime_Assignment.pdb
