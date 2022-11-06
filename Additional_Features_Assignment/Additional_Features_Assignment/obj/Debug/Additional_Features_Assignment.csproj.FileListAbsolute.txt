@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Additional_Features_Assignment\Additional_Features_Assignment\bin\Debug\Additional_Features_Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Additional_Features_Assignment\Additional_Features_Assignment\bin\Debug\Additional_Features_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Additional_Features_Assignment\Additional_Features_Assignment\bin\Debug\Additional_Features_Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Additional_Features_Assignment\Additional_Features_Assignment\obj\Debug\Additional_Features_Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Additional_Features_Assignment\Additional_Features_Assignment\obj\Debug\Additional_Features_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Additional_Features_Assignment\Additional_Features_Assignment\obj\Debug\Additional_Features_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Additional_Features_Assignment\Additional_Features_Assignment\obj\Debug\Additional_Features_Assignment.pdb

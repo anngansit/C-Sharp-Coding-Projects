@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     public struct Card
     {
@@ -13,7 +13,7 @@ namespace TwentyOne
 
         public override string ToString()        
         {
-            return string.Format("{0} of {1}", Face, Suit);
+            return string.Format("{0} of {1}", Suit, Face);
         }
 
     }
@@ -23,7 +23,7 @@ namespace TwentyOne
         Clubs,
         Diamonds,
         Hearts,
-        Spade
+        Spades
     }
 
     public enum Face
