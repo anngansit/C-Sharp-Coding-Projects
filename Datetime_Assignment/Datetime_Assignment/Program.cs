@@ -17,7 +17,7 @@ namespace Datetime_Assignment
             Console.WriteLine("\nPlease enter a number:");
             string text = Console.ReadLine();
 
-            File.WriteAllText(@"C:\Anna\Logs\logs.txt", text);
+            //File.WriteAllText(@"C:\Anna\Logs\logs.txt", text);
             Console.WriteLine("\n" + text + " hours");
            
             Console.ReadLine();
