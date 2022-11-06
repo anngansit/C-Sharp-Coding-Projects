@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\File_IO_Assignment\File_IO_Assignment\bin\Debug\File_IO_Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\File_IO_Assignment\File_IO_Assignment\bin\Debug\File_IO_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\File_IO_Assignment\File_IO_Assignment\bin\Debug\File_IO_Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\File_IO_Assignment\File_IO_Assignment\obj\Debug\File_IO_Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\File_IO_Assignment\File_IO_Assignment\obj\Debug\File_IO_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\File_IO_Assignment\File_IO_Assignment\obj\Debug\File_IO_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\File_IO_Assignment\File_IO_Assignment\obj\Debug\File_IO_Assignment.pdb
