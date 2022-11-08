@@ -12,7 +12,7 @@ namespace Datetime_Assignment
         public static void Main(string[] args)
             
         {
-            //DateTime d = new DateTime();
+           
             DateTime d1 = DateTime.Now;
             Console.WriteLine("Current time is:");
             Console.WriteLine(d1);
@@ -26,9 +26,6 @@ namespace Datetime_Assignment
 
             Console.ReadLine();
         }
-
-        //File.WriteAllText(@"C:\Anna\Logs\logs.txt", text);
-
     }
 }
   
