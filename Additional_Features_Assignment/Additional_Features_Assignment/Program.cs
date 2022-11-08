@@ -11,12 +11,14 @@ namespace Additional_Features_Assignment
         static void Main(string[] args)
         {
             const string busName = "Stylized Photobooth";
-            
-            Console.WriteLine("What is your name?");
-            var Name = Console.ReadLine();
 
-            Console.WriteLine("Hello {0}. Welcome to {1}!", Name, busName );
-            
+            Console.WriteLine("Welcome to {0}!\n", busName);
+
+            RentalDetails RD1 = new RentalDetails("Birthday", 3, "pink");
+
+            RD1.Rent();
+
+
             Console.ReadLine();
         }
     }
