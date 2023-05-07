@@ -1,0 +1,12 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\bin\Debug\Final_Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\bin\Debug\Final_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\bin\Debug\Final_Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\bin\Debug\EntityFramework.dll
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\bin\Debug\EntityFramework.xml
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\obj\Debug\Final_Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\obj\Debug\Final_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\obj\Debug\Final_Assignment.csproj.CopyComplete
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\obj\Debug\Final_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Final_Assignment\Final_Assignment\obj\Debug\Final_Assignment.pdb
