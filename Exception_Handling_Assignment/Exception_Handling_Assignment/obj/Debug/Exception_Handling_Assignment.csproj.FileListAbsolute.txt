@@ -1,0 +1,7 @@
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Handling_Assignment\Exception_Handling_Assignment\obj\Debug\Exception_Handling_Assignment.csproj.AssemblyReference.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Handling_Assignment\Exception_Handling_Assignment\obj\Debug\Exception_Handling_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Handling_Assignment\Exception_Handling_Assignment\bin\Debug\Exception_Handling_Assignment.exe.config
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Handling_Assignment\Exception_Handling_Assignment\bin\Debug\Exception_Handling_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Handling_Assignment\Exception_Handling_Assignment\bin\Debug\Exception_Handling_Assignment.pdb
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Handling_Assignment\Exception_Handling_Assignment\obj\Debug\Exception_Handling_Assignment.exe
+C:\Users\Analiza Gansit\Desktop\AOLCC\C-Sharp-Coding-Projects\Exception_Handling_Assignment\Exception_Handling_Assignment\obj\Debug\Exception_Handling_Assignment.pdb
