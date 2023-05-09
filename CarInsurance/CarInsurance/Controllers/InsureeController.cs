@@ -52,13 +52,14 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType")] Insuree insuree)
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = insQuote(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Admin");
             }
 
             return View(insuree);
@@ -84,13 +85,14 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarMode,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = insQuote(insuree);
                 db.Entry(insuree).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Admin");
             }
             return View(insuree);
         }
@@ -130,6 +132,7 @@ namespace CarInsurance.Controllers
             base.Dispose(disposing);
         }
 
+
         public decimal insQuote(Insuree insuree)
         {
             //Base Quote value
@@ -159,11 +162,11 @@ namespace CarInsurance.Controllers
 
             if (insuree.CarModel == "911 Carrera") insuree.Quote += 25;
 
-            insuree.Quote += 10 * insuree.SpeedingTickets;
+            if (insuree.SpeedingTickets > 0) { insuree.Quote += insuree.SpeedingTickets * 10; }
 
-            if (insuree.DUI) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.25m);
+            if (insuree.DUI == true) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.25m);
 
-            if (insuree.CoverageType) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.5m);
+            if (insuree.CoverageType == true) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.5m);
 
             return insuree.Quote;
         }
