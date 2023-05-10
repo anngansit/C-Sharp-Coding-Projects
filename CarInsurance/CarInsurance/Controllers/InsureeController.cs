@@ -14,14 +14,41 @@ namespace CarInsurance.Controllers
     {
         private InsuranceEntities db = new InsuranceEntities();
 
-        // GET: Insuree
-        public ActionResult Index()
+        public ActionResult Admin()
         {
             return View(db.Insurees.ToList());
         }
+        private decimal CalculateQuote(Insuree insuree)
+        {
+            decimal quote = 50m;
+            // calculate the age of 
+            int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
+            if (DateTime.Now.DayOfYear < insuree.DateOfBirth.DayOfYear) { age--; }
+            //If the user is 18 and under, add $100 to the monthly total.
+            if (age <= 18) { quote += 100; }
+            //If the user is between 19 and 25, add $50 to the monthly total.
+            if (age >= 19 && age < 25) { quote += 50; }
+            //If the user is over 25, add $25 to the monthly total.
+            if (age >= 25) { quote += 25; }
+            //If the car's year is before 2000, add $25 to the monthly total.
+            if (insuree.CarYear < 2000) { quote += 25; }
+            //If the car's year is after 2015, add $25 to the monthly total.
+            if (insuree.CarYear >= 2015) { quote += 25; }
+            //If the car's Make is a Porsche, add $25 to the price.
+            if (insuree.CarMake == "Porsche") { quote += 25; }
+            //If the car's Make is a Porsche and its model is a 911 Carrera, add an additional $25 to the price.
+            if (insuree.CarMake == "Porsche" && insuree.CarModel == "99 Carrera") { quote += 25; }
+            //Add $10 to the monthly total for every speeding ticket the user has.
+            if (insuree.SpeedingTickets > 0) { quote += insuree.SpeedingTickets * 10; }
+            //If the user has ever had a DUI, add 25% to the total.
+            if (insuree.DUI == true) { quote += quote * 1.25m; }
+            //If it's full coverage, add 50% to the total.
+            if (insuree.CoverageType == true) { quote += quote * 1.50m; }
+            return quote;
 
+        }
         // GET: Insuree
-        public ActionResult Admin()
+        public ActionResult Index()
         {
             return View(db.Insurees.ToList());
         }
@@ -52,14 +79,16 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType")] Insuree insuree)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
         {
+
+            insuree.Quote = CalculateQuote(insuree);
+
             if (ModelState.IsValid)
             {
-                insuree.Quote = insQuote(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
-                return RedirectToAction("Admin");
+                return RedirectToAction("Index");
             }
 
             return View(insuree);
@@ -73,6 +102,7 @@ namespace CarInsurance.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Insuree insuree = db.Insurees.Find(id);
+            insuree.Quote = CalculateQuote(insuree);
             if (insuree == null)
             {
                 return HttpNotFound();
@@ -85,14 +115,14 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarMode,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
         {
+            insuree.Quote = CalculateQuote(insuree);
             if (ModelState.IsValid)
             {
-                insuree.Quote = insQuote(insuree);
                 db.Entry(insuree).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Admin");
+                return RedirectToAction("Index");
             }
             return View(insuree);
         }
@@ -130,45 +160,6 @@ namespace CarInsurance.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
-        }
-
-
-        public decimal insQuote(Insuree insuree)
-        {
-            //Base Quote value
-            insuree.Quote = 50;
-
-            //Calculate age
-            var today = DateTime.Today;
-            var age = today.Year - insuree.DateOfBirth.Year;
-
-            if (age <= 18)
-            {
-                insuree.Quote += 100;
-            }
-            else if (age > 18 && age < 25)
-            {
-                insuree.Quote += 50;
-            }
-            else if (age >= 25)
-            {
-                insuree.Quote += 25;
-            }
-
-
-            if (insuree.CarYear < 2000 || insuree.CarYear > 2015) insuree.Quote += 25;
-
-            if (insuree.CarMake == "Porshe") insuree.Quote += 25;
-
-            if (insuree.CarModel == "911 Carrera") insuree.Quote += 25;
-
-            if (insuree.SpeedingTickets > 0) { insuree.Quote += insuree.SpeedingTickets * 10; }
-
-            if (insuree.DUI == true) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.25m);
-
-            if (insuree.CoverageType == true) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.5m);
-
-            return insuree.Quote;
         }
     }
 }
