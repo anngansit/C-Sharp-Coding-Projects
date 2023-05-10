@@ -1,6 +1,6 @@
 # C-Sharp Coding Projects
 
-In this course I continued to develop my skill in C# and MVC.  This repository contains some small projects I made using C# and .NET Framework.
+In this course I continued to develop my skill.  This repository contains some small projects I made using C# and .NET Framework.
 
 **Projects:**
 _Car Insurance:_
